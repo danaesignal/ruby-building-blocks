@@ -12,8 +12,8 @@ def stock_picker (pricing_history)
       end
     }
   }
-  puts "Bought on day #{@buy_date+1}, for #{pricing_history[@buy_date]}."
-  puts "Sold on day #{@sell_date+1}, for #{pricing_history[@sell_date]}."
+  puts "Bought on day #{@buy_date}, for #{pricing_history[@buy_date]}."
+  puts "Sold on day #{@sell_date}, for #{pricing_history[@sell_date]}."
   puts "Total profit, $#{@best_profit}."
 end
 
